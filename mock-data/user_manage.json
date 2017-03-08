@@ -1,0 +1,15 @@
+[{
+    "method": "get",
+    "url": "/v1/user/info",
+    "response": {
+      "errorCode": "0",
+      "errorMsg": "",
+      "data": {
+          "userName": "work",
+          "userDisplay": "work",
+          "identity": 0,
+          "groupName": "cert",
+          "groupId": 33
+      }
+    }
+}]
