@@ -1,93 +1,29 @@
 [
   {
     "method": "get",
-    "url": "/v1/group/group/list",
-    "response": {
-      "errorCode": 0,
-      "errorMsg": "",
-      "data": [
-          {
-              "groupId": 507,
-              "groupName": "xitong",
-              "groupDesc": "xitong",
-              "createUser": "root",
-              "createDate": 201608293132,
-              "updateUser": "root",
-              "updateDate": 201608293132,
-              "enabled": true
-          },
-          {
-              "groupId": 508,
-              "groupName": "360 search",
-              "groupDesc": "360 search",
-              "createUser": "admin",
-              "createDate": 201608271521,
-              "updateUser": "admin",
-              "updateDate": 201608271521,
-              "enabled": true
-          }
-      ],
-      "totalCount": 20,
-      "pageNum": 1,
-      "pageSize": 10
-    }
-  },
-  {
-    "method": "get",
-    "url": "/v1/group/group/info",
+    "url": "/v1/group/info",
     "response": {
       "errorCode": 0,
       "errorMsg": "",
       "data": {
-        "groupId": 507,
-        "groupName": "xitong",
-        "groupDesc": "xitong",
-        "createUser": "root",
-        "createDate": "201608293132",
-        "updateUser": "root",
-        "updateDate": "201608293132",
-        "enabled": true
+        "xxxxId": 507,
+        "xxxxName": "xxxx",
+        "xxxxDesc": "xxxx"
       }
     }
   },
   {
     "method": "get",
-    "url": "/v1/account/account/list/:id",
+    "url": "/v1/account/list/:id",
     "response": {
         "errorCode": 0,
         "errorMsg": "",
         "data": [
           {
-            "userId": 10020,
-            "userEn": "test",
-            "userName": "test user",
-            "userPasswd": "xxxx",
-            "userType": 0,
-            "app": "bigplore,bigmanager",
-            "createUser": "root",
-            "createDate": 201608293132,
-            "updateUser": "root",
-            "updateDate": 201608293132,
-            "enabled": true,
-            "groupId":1001
-          },
-          {
-            "userId": 10021,
-            "userEn": "test01",
-            "userName": "test01 user",
-            "userPasswd": "xxxx",
-            "userType": 1,
-            "app": "bigplore",
-            "createUser": "root",
-            "createDate": 201608293132,
-            "updateUser": "root",
-            "updateDate": 201608293132,
-            "enabled": true,
-            "groupId":1001
+            "xxxId": 10020,
+            "xxxEn": "test",
+            "xxxName": "test user"
           }
-        ],
-        "totalCount": 20,
-        "pageNum": 1,
-        "pageSize": 10
+        ]
     }
 }]
